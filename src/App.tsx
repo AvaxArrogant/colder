@@ -13,7 +13,6 @@ import News from './components/News';
 import Careers from './components/Careers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import FloatingContact from './components/FloatingContact';
 import LiveChat from './components/LiveChat';
 
 function App() {
@@ -33,7 +32,6 @@ function App() {
       <Careers />
       <Contact />
       <Footer />
-      <FloatingContact />
       <LiveChat />
     </div>
   );

@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, Shield, Clock, Globe, Download, Play } from 'lucide-react';
 
 const Hero = () => {
@@ -30,17 +29,12 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 mb-8 animate-fade-in-up">
-            <Shield className="h-5 w-5 text-blue-300" />
-            <span className="text-blue-100 font-medium">USDA FSIS Certified Import Inspection Facility</span>
-          </div>
-
-          {/* Main Tagline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            America's Trusted <span className="text-blue-300">Cold Chain</span>,
+          {/* Main Tagline - visually improved */}
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+            America's Trusted<br />
+            <span className="text-blue-300">Cold Chain</span>
             <br />
-            <span className="text-blue-300">Three Generations</span> Strong
+            <span className="text-blue-300">Three Generations</span> <span className="text-white">Strong</span>
           </h1>
 
           {/* Value Statement */}

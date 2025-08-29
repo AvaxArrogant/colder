@@ -1,7 +1,5 @@
-import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import CertificationBanner from './components/CertificationBanner';
 import About from './components/About';
 import Services from './components/Services';
 import ProductJourney from './components/ProductJourney';
@@ -18,10 +16,9 @@ import LiveChat from './components/LiveChat';
 function App() {
   return (
     <div className="min-h-screen bg-slate-50">
-      <Header />
-      <Hero />
-      <CertificationBanner />
-      <About />
+  <Header />
+  <Hero />
+  <About />
       <Services />
       <ProductJourney />
       <Process />

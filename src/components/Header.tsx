@@ -45,13 +45,13 @@ const Header = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-slate-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
+                className={`font-medium transition-colors duration-200 relative group ${isScrolled ? 'text-slate-700 hover:text-blue-600' : 'text-white hover:text-blue-200'}`}
               >
                 {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-200 group-hover:w-full"></span>
+                <span className={`absolute bottom-0 left-0 w-0 h-0.5 ${isScrolled ? 'bg-blue-600' : 'bg-white'} transition-all duration-200 group-hover:w-full`}></span>
               </a>
             ))}
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium">
+            <button className={`px-6 py-2 rounded-lg transition-colors duration-200 font-medium ${isScrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-white text-blue-700 hover:bg-blue-100'}`}>
               Get Quote
             </button>
           </nav>

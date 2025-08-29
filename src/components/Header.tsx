@@ -34,7 +34,7 @@ const Header = () => {
             <div className="bg-blue-600 p-2 rounded-lg">
               <Snowflake className="h-6 w-6 text-white" />
             </div>
-            <div className="text-slate-800 font-bold text-xl">
+            <div className={`font-bold text-xl whitespace-nowrap leading-tight transition-colors duration-200 ${isScrolled ? 'text-slate-800' : 'text-white'}`}>
               SRS
             </div>
           </div>

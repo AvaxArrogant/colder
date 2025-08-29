@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 md:pt-28">
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-16 md:pt-20">
         <div className="max-w-4xl mx-auto">
           {/* Main Tagline - visually improved */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in-up" style={{animationDelay: '0.2s'}}>

@@ -64,7 +64,7 @@ const InteractiveMap = () => {
       id: 'losangeles',
       name: 'Los Angeles Facility',
       city: 'Long Beach, CA',
-      coordinates: { x: 18, y: 62 }, // Southern California
+  coordinates: { x: 21, y: 61 }, // Southern California (nudged right/inland for coastline alignment)
       address: '2468 Pacific Coast Highway, Long Beach, CA 90802',
       phone: '(562) 555-0789',
       email: 'losangeles@sorbellorefrigerated.com',

@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-12 md:pt-16">
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-12 md:pt-16 pb-24 sm:pb-28">
         <div className="max-w-4xl mx-auto">
           {/* Main Tagline - visually improved */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in-up" style={{animationDelay: '0.2s'}}>
@@ -85,8 +85,8 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+  {/* Scroll Indicator (behind content, non-interactive) */}
+  <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-0 pointer-events-none hidden md:block" aria-hidden="true">
         <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-bounce"></div>
         </div>
